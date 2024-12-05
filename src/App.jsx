@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage';
 import Login from './components/login';
 import Register from './components/Register';
 import ResetPassword from './components/ResetPassword';
-import Add from './components/AddBook';
+import Books from './components/viewbook';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -19,7 +19,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/Register" element={<Register />} />
                     <Route path="/ResetPassword" element={<ResetPassword />} />
-                    <Route path="/rrr" element={<Add />} />
+                    <Route path="/books" element={<Books />} />
 
 
 

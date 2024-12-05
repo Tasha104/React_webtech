@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/style.css";
+import { Link } from "react-router-dom";
 // import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 // import "https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css";
 
